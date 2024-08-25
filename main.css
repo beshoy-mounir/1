@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: gray;
+}
+body main .wrapper {
+    width: 80%;
+    margin: auto;
+}
+body main .wrapper .container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+body main .wrapper .container .output {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
